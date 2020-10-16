@@ -350,7 +350,7 @@ function preload() {
 
 function setup() {
 
-  createCanvas(windowWidth - 150, windowHeight - 150);
+  createCanvas(windowWidth, windowHeight);
   
   //Barrel Sprites 
   tomato_barrel = createSprite(200,200);
