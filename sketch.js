@@ -459,21 +459,22 @@ function setup() {
   human.scale = 0.3;
   human.visible = false;
   
-  play = createSprite((width/2) - 150, (height/2));
+  play = createSprite((width/2), (height/2) - 100);
   play.addImage(playimg);
 
-  rush = createSprite((width/2) - 110, (height/2) - 450);
+  rush = createSprite((width/2), (height/2) - 300);
   rush.addImage(rushimg);
   
-  control = createSprite((width/2) - 140, (height/2) - 200);
+  control = createSprite((width/2) - 300, (height/2) + 50);
   control.addImage(controlimg);
 
-  controls = createSprite((width/2) - 350, (height/2));
+  controls = createSprite((width/2), (height/2));
   controls.addImage(controlsimg);
   controls.visible = false;
 
-  how = createSprite((width/2) - 140, (height/2) + 200);
-  how.addImage(howimg); 
+  how = createSprite((width/2) + 300, (height/2) + 50);
+  how.addImage(howimg);
+  
   inventory = createSprite(160,60);
   inventory.addImage(inventoryimg);
   inventory.scale = 0.3;
